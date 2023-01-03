@@ -1,0 +1,32 @@
+.checkoutitem{
+  display:flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid gray;
+}
+
+.item_title{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.item_image{
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.item_info > button {
+  background-color: rgb(214, 207, 207);
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.item_info > button:hover{
+  background-color:rgb(194, 192, 192);
+}
+
+.item_rating{
+  display: flex;
+}

@@ -15,6 +15,11 @@
     margin-top: 18px;
 }
 
+.navbar_logo:hover{
+    padding: 10px;
+    border: 1px solid white;
+}
+
 .navbar_search{
     display:flex;
     flex: 1;
@@ -48,6 +53,11 @@
     color:white;
 }
 
+.navbar_option:hover{
+    padding: 10px;
+    border: 1px solid white;
+}
+
 .navbar_option_line1{
     font-size: 10px;
     font-weight: 400;
@@ -65,7 +75,13 @@
     color: white;
 }
 
+.navbar_cart:hover{
+    padding: 10px;
+    border: 1px solid white;
+}
+
 .navbar_cartCount{
     margin-left: 10px;
     margin-right: 10px;
 }
+
